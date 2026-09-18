@@ -3,126 +3,150 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="refolyf — sinematik fotoğraf portfolyosu. İstanbul merkezli görsel hikâyeler." />
-  <meta name="theme-color" content="#0a0a0c" />
-  <title>refolyf — Fotoğraf Portfolyosu</title>
+  <meta name="description" content="refolyf — ışık, şehir ve deniz üzerine görsel hikâyeler. Sinematik fotoğraf serileri." />
+  <meta name="theme-color" content="#0c0b0a" />
+  <meta property="og:title" content="refolyf — Fotoğraf" />
+  <meta property="og:description" content="Işık düşer, şehir durur; bir kare tarih olur." />
+  <meta property="og:image" content="images/web/033-seagulls-sunset-swarm.jpg" />
+  <title>refolyf — Işık düşer, şehir durur</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#galeri">Galeriye geç</a>
+  <a class="skip-link" href="#seriler">Serilere geç</a>
 
-  <header class="site-header">
-    <a class="logo" href="#">refolyf</a>
-    <nav class="nav" aria-label="Ana menü">
-      <a href="#hakkinda">Hakkında</a>
-      <a href="#galeri">Galeri</a>
-      <a href="#iletisim">İletişim</a>
+  <header class="site-header" id="top">
+    <a class="logo" href="index.html">refolyf</a>
+    <button class="nav-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Ana menü">
+      <a href="#hikaye">Hikâye</a>
+      <a href="#seriler">Seriler</a>
+      <a href="https://www.instagram.com/refolyf/" target="_blank" rel="noopener noreferrer">Instagram</a>
     </nav>
   </header>
 
   <section class="hero" aria-label="Karşılama">
-    <div class="hero-bg" style="background-image: url('images/01.jpg')" role="img" aria-label="Öne çıkan fotoğraf"></div>
-    <div class="hero-overlay"></div>
+    <div class="hero-media">
+      <img src="images/web/033-seagulls-sunset-swarm.jpg" alt="Gün batımında martılar" width="2000" height="1268" fetchpriority="high" />
+    </div>
+    <div class="hero-veil"></div>
     <div class="hero-content">
-      <p class="hero-eyebrow">Fotoğraf · Görsel Anlatı</p>
-      <h1 class="hero-title">refolyf</h1>
-      <p class="hero-tagline">Işık, gölge ve anlar — sinematik bir bakış.</p>
-      <a class="btn btn-gold" href="#galeri">Galeriyi Keşfet</a>
+      <p class="hero-brand">refolyf</p>
+      <h1 class="hero-quote">«Işık düşer, şehir durur;<br />bir kare tarih olur.»</h1>
+      <a class="hero-cta" href="#seriler">Serilere bak</a>
     </div>
-    <div class="hero-scroll" aria-hidden="true">
-      <span></span>
+    <div class="hero-scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <section id="hikaye" class="story">
+    <div class="story-inner">
+      <p class="eyebrow">Kısa hikâye</p>
+      <h2 class="story-title">Şehir, ışık ve sessizlik</h2>
+      <div class="story-body">
+        <p>
+          refolyf, bir yerin adını değil bir bakışı taşır. Gün batımında Boğaz’ın silüeti,
+          yokuştan denize açılan sokak, sisli ormanda suya düşen ağaç — hepsi aynı cümleye
+          bağlanır: ışık geldiğinde zaman yavaşlar.
+        </p>
+        <p>
+          Bu karelerde şehir manzara değildir; günlük bir sahne, bir nefes, bir bekleyiştir.
+          İnsanlar, martılar, tekneler ve taş yapılar aynı karede buluşur. Fotoğraf, o anı
+          tutmak için durur — asıl araç gözdür.
+        </p>
+        <p>
+          Beş seride 79 kare. Denizden ormana, sokaktan geceye — şehrin ve doğanın ritmi.
+          Yeni kareler için Instagram’da buluşalım.
+        </p>
+      </div>
+      <a class="btn-outline" href="https://www.instagram.com/refolyf/" target="_blank" rel="noopener noreferrer">Instagram’da takip et</a>
     </div>
   </section>
 
-  <section id="hakkinda" class="about">
-    <div class="about-inner">
-      <h2 class="section-title">Hakkında</h2>
-      <div class="gold-line" aria-hidden="true"></div>
-      <p class="about-text">
-        refolyf; kontrast, doku ve atmosfer üzerine kurulu bir fotoğraf yolculuğu.
-        Karanlık tonlar, altın ışık ve sakin kompozisyonlarla hikâyeler anlatır.
-        Çalışmalarım ve güncel kareler için Instagram’da buluşalım.
-      </p>
+  <section id="seriler" class="series">
+    <div class="series-header">
+      <p class="eyebrow">Arşiv</p>
+      <h2 class="section-heading">Seriler</h2>
+      <p class="series-lead">Beş bölüm. Denizden ormana, sokaktan geceye — şehrin ve doğanın ritmi.</p>
     </div>
-  </section>
 
-  <section id="galeri" class="gallery">
-    <div class="gallery-header">
-      <h2 class="section-title">Galeri</h2>
-      <div class="gold-line" aria-hidden="true"></div>
-      <p class="gallery-sub">Seçili kareler</p>
-    </div>
-    <div class="gallery-grid" role="list">
-      <button type="button" class="gallery-item" role="listitem" data-src="images/01.jpg" data-alt="Fotoğraf 1" aria-label="Fotoğraf 1 — büyüt">
-        <img src="images/01.jpg" alt="Fotoğraf 1" loading="eager" width="311" height="290" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item" role="listitem" data-src="images/02.jpg" data-alt="Fotoğraf 2" aria-label="Fotoğraf 2 — büyüt">
-        <img src="images/02.jpg" alt="Fotoğraf 2" loading="lazy" width="311" height="290" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item tall" role="listitem" data-src="images/03.jpg" data-alt="Fotoğraf 3" aria-label="Fotoğraf 3 — büyüt">
-        <img src="images/03.jpg" alt="Fotoğraf 3" loading="lazy" width="576" height="576" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item" role="listitem" data-src="images/04.jpg" data-alt="Fotoğraf 4" aria-label="Fotoğraf 4 — büyüt">
-        <img src="images/04.jpg" alt="Fotoğraf 4" loading="lazy" width="311" height="290" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item" role="listitem" data-src="images/05.jpg" data-alt="Fotoğraf 5" aria-label="Fotoğraf 5 — büyüt">
-        <img src="images/05.jpg" alt="Fotoğraf 5" loading="lazy" width="311" height="290" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item" role="listitem" data-src="images/06.jpg" data-alt="Fotoğraf 6" aria-label="Fotoğraf 6 — büyüt">
-        <img src="images/06.jpg" alt="Fotoğraf 6" loading="lazy" width="311" height="290" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item portrait" role="listitem" data-src="images/07.jpg" data-alt="Fotoğraf 7" aria-label="Fotoğraf 7 — büyüt">
-        <img src="images/07.jpg" alt="Fotoğraf 7" loading="lazy" width="311" height="347" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item portrait" role="listitem" data-src="images/08.jpg" data-alt="Fotoğraf 8" aria-label="Fotoğraf 8 — büyüt">
-        <img src="images/08.jpg" alt="Fotoğraf 8" loading="lazy" width="311" height="347" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-      <button type="button" class="gallery-item portrait" role="listitem" data-src="images/09.jpg" data-alt="Fotoğraf 9" aria-label="Fotoğraf 9 — büyüt">
-        <img src="images/09.jpg" alt="Fotoğraf 9" loading="lazy" width="311" height="347" />
-        <span class="gallery-item-overlay"><span>Bak</span></span>
-      </button>
-    </div>
-  </section>
-
-  <section id="iletisim" class="cta">
-    <div class="cta-inner">
-      <h2 class="section-title">İletişim</h2>
-      <div class="gold-line" aria-hidden="true"></div>
-      <p class="cta-text">
-        İşbirliği, çekim veya sorular için Instagram üzerinden DM atın.
-        E-posta kullanmıyorum — en hızlı yol Instagram.
-      </p>
-      <a class="btn btn-gold btn-ig" href="https://www.instagram.com/refolyf/" target="_blank" rel="noopener noreferrer">
-        <svg class="ig-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="currentColor">
-          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-        </svg>
-        @refolyf
-      </a>
+    <div class="series-list">
+      <article class="series-card">
+        <a class="series-card-link" href="seriler/deniz-isik.html">
+          <div class="series-card-media">
+            <img src="images/web/012-marina-sunset.jpg" alt="Deniz &amp; Işık serisi kapak" loading="lazy" />
+          </div>
+          <div class="series-card-body">
+            <h3>Deniz &amp; Işık</h3>
+            <p>Şehir burada suya yaslanır. Güneş alçalınca gemi, martı ve kıyı tek bir silüete dönüşür; Boğaz bir manzara değil, günlük bir sahne olur.</p>
+            <span class="series-meta">25 kare</span>
+            <span class="series-go">Galeriye git</span>
+          </div>
+        </a>
+      </article>
+      <article class="series-card series-card--reverse">
+        <a class="series-card-link" href="seriler/sokak-insan.html">
+          <div class="series-card-media">
+            <img src="images/web/046-bazaar-tea.jpg" alt="Sokak &amp; İnsan serisi kapak" loading="lazy" />
+          </div>
+          <div class="series-card-body">
+            <h3>Sokak &amp; İnsan</h3>
+            <p>Kalabalık durunca hikâye başlar — kapalı çarşıda sohbet, yokuştan denize bakış, eski bir araba. Şehir, insanların temposunda yazılır.</p>
+            <span class="series-meta">14 kare</span>
+            <span class="series-go">Galeriye git</span>
+          </div>
+        </a>
+      </article>
+      <article class="series-card">
+        <a class="series-card-link" href="seriler/gece.html">
+          <div class="series-card-media">
+            <img src="images/web/064-bus-stop-eczane-mado.jpg" alt="Gece serisi kapak" loading="lazy" />
+          </div>
+          <div class="series-card-body">
+            <h3>Gece</h3>
+            <p>Gece, şehri siyah-beyaza çevirir. Bekleyenler karanlıkta kalır; vitrinler ve neon tek renk gibi yanar.</p>
+            <span class="series-meta">11 kare</span>
+            <span class="series-go">Galeriye git</span>
+          </div>
+        </a>
+      </article>
+      <article class="series-card series-card--reverse">
+        <a class="series-card-link" href="seriler/orman.html">
+          <div class="series-card-media">
+            <img src="images/web/063-misty-forest-water.jpg" alt="Orman serisi kapak" loading="lazy" />
+          </div>
+          <div class="series-card-body">
+            <h3>Orman</h3>
+            <p>Yaprağı düşmüş ağaçlar suya düşer. Sis, gökyüzü ile toprağı ayırır; doğa burada sessiz ama kalabalık bir korodur.</p>
+            <span class="series-meta">17 kare</span>
+            <span class="series-go">Galeriye git</span>
+          </div>
+        </a>
+      </article>
+      <article class="series-card">
+        <a class="series-card-link" href="seriler/tas-yapi.html">
+          <div class="series-card-media">
+            <img src="images/web/019-galata-tower-top.jpg" alt="Taş &amp; Yapı serisi kapak" loading="lazy" />
+          </div>
+          <div class="series-card-body">
+            <h3>Taş &amp; Yapı</h3>
+            <p>Taş, zamanı tutar — kemerler, tuğla, kule külahı. Mimari, şehrin sabit yüzüdür.</p>
+            <span class="series-meta">12 kare</span>
+            <span class="series-go">Galeriye git</span>
+          </div>
+        </a>
+      </article>
     </div>
   </section>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> refolyf · Tüm hakları saklıdır</p>
-    <a href="https://www.instagram.com/refolyf/" target="_blank" rel="noopener noreferrer">instagram.com/refolyf</a>
+    <a class="logo" href="index.html">refolyf</a>
+    <p class="footer-note">79 kare · beş seri</p>
+    <a class="footer-ig" href="https://www.instagram.com/refolyf/" target="_blank" rel="noopener noreferrer">instagram.com/refolyf</a>
   </footer>
-
-  <div id="lightbox" class="lightbox" hidden aria-modal="true" role="dialog" aria-label="Fotoğraf önizleme">
-    <button type="button" class="lightbox-close" aria-label="Kapat">&times;</button>
-    <button type="button" class="lightbox-nav lightbox-prev" aria-label="Önceki">‹</button>
-    <img class="lightbox-img" src="" alt="" />
-    <button type="button" class="lightbox-nav lightbox-next" aria-label="Sonraki">›</button>
-  </div>
 
   <script src="script.js"></script>
 </body>

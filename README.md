@@ -1,46 +1,41 @@
 # refolyf — Fotoğraf Portfolyosu
 
-Sinematik, koyu temalı (siyah / altın / lacivert) statik fotoğraf sitesi.  
+Sinematik, koyu temalı statik fotoğraf sitesi.  
 Canlı adres: **https://psikosun.github.io/refolyf/**
 
 Instagram: [instagram.com/refolyf](https://www.instagram.com/refolyf/)
 
-## İçerik
+> «Işık düşer, şehir durur; bir kare tarih olur.»
+
+## Seriler (79 kare)
+
+| Seri | Kare | Dosya |
+| --- | --- | --- |
+| Deniz & Işık | 25 | `seriler/deniz-isik.html` |
+| Sokak & İnsan | 14 | `seriler/sokak-insan.html` |
+| Gece | 11 | `seriler/gece.html` |
+| Orman | 17 | `seriler/orman.html` |
+| Taş & Yapı | 12 | `seriler/tas-yapi.html` |
+
+## Yapı
 
 | Dosya / klasör | Açıklama |
 | --- | --- |
-| `index.html` | Ana sayfa (Türkçe arayüz) |
+| `index.html` | Ana sayfa (hero, hikâye, seri kartları) |
+| `seriler/` | Beş seri galeri sayfası (lightbox) |
 | `styles.css` | Tipografi ve düzen |
-| `script.js` | Galeri lightbox |
-| `images/` | Portfolyo fotoğrafları (`01.jpg` … `09.jpg`) |
+| `script.js` | Menü + lightbox |
+| `images/web/` | Web için optimize edilmiş JPEG’ler (max ~2000px) |
+| `manifest.json` | Seri hikâyeleri ve Türkçe altyazılar |
 
-## GitHub Pages nasıl çalışır?
+## GitHub Pages
 
-Bu depo **GitHub Pages** ile yayınlanır:
+1. Depo: `psikosun/refolyf`
+2. **Settings → Pages** → Source: Deploy from a branch
+3. Branch: `main`, klasör: `/ (root)`
+4. Adres: `https://psikosun.github.io/refolyf/`
 
-1. GitHub’da `psikosun/refolyf` deposuna gidin.
-2. **Settings → Pages**.
-3. **Source**: Deploy from a branch.
-4. **Branch**: `main`, klasör: `/ (root)`.
-5. Kaydedin. Birkaç dakika içinde site  
-   `https://psikosun.github.io/refolyf/` adresinde açılır.
-
-Değişiklik yaptıktan sonra `main` dalına push etmek yeterlidir; Pages otomatik yenilenir.
-
-## Fotoğrafları değiştirme
-
-1. Yeni görselleri `images/` klasörüne koyun (ör. `01.jpg` … `09.jpg`).
-2. Aynı dosya adlarını kullanırsanız `index.html`’i değiştirmeniz gerekmez.
-3. Farklı isimler kullanıyorsanız `index.html` içindeki `src` / `data-src` yollarını güncelleyin.
-4. Hero arka planı `01.jpg` kullanır; değiştirmek için hero bölümündeki `background-image` yolunu güncelleyin.
-5. Önerilen: kare veya dikey fotoğraflar, mümkünse yüksek çözünürlük (en az ~1200px kısa kenar).
-6. Commit ve push:
-
-```bash
-git add images/ index.html
-git commit -m "Fotoğrafları güncelle"
-git push origin main
-```
+`main` dalına push yeterli; Pages otomatik yenilenir.
 
 ## Yerelde önizleme
 

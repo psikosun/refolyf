@@ -1,56 +1,90 @@
 (function () {
-  "use strict";
+  const header = document.querySelector(".site-header");
+  const toggle = document.querySelector(".nav-toggle");
+  const nav = document.querySelector(".nav");
 
-  var yearEl = document.getElementById("year");
-  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+  if (header) {
+    const onScroll = () => {
+      header.classList.toggle("is-scrolled", window.scrollY > 40);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
 
-  var items = Array.prototype.slice.call(
-    document.querySelectorAll(".gallery-item[data-src]")
-  );
-  var lightbox = document.getElementById("lightbox");
-  if (!lightbox || !items.length) return;
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!open));
+      nav.classList.toggle("is-open", !open);
+    });
+    nav.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", () => {
+        toggle.setAttribute("aria-expanded", "false");
+        nav.classList.remove("is-open");
+      });
+    });
+  }
 
-  var img = lightbox.querySelector(".lightbox-img");
-  var btnClose = lightbox.querySelector(".lightbox-close");
-  var btnPrev = lightbox.querySelector(".lightbox-prev");
-  var btnNext = lightbox.querySelector(".lightbox-next");
-  var index = 0;
+  const items = Array.from(document.querySelectorAll(".gallery-item"));
+  if (!items.length) return;
 
-  function openAt(i) {
-    index = (i + items.length) % items.length;
-    var el = items[index];
-    img.src = el.getAttribute("data-src");
-    img.alt = el.getAttribute("data-alt") || "";
-    lightbox.hidden = false;
+  const lb = document.createElement("div");
+  lb.className = "lightbox";
+  lb.setAttribute("role", "dialog");
+  lb.setAttribute("aria-modal", "true");
+  lb.setAttribute("aria-label", "Fotoğraf görüntüleyici");
+  lb.innerHTML = `
+    <button type="button" class="lightbox-close" aria-label="Kapat">×</button>
+    <button type="button" class="lightbox-nav lightbox-prev" aria-label="Önceki">‹</button>
+    <button type="button" class="lightbox-nav lightbox-next" aria-label="Sonraki">›</button>
+    <div class="lightbox-inner">
+      <img src="" alt="" />
+      <p class="lightbox-caption"></p>
+    </div>
+  `;
+  document.body.appendChild(lb);
+
+  const imgEl = lb.querySelector("img");
+  const capEl = lb.querySelector(".lightbox-caption");
+  let index = 0;
+
+  function open(i) {
+    index = i;
+    const btn = items[index];
+    imgEl.src = btn.dataset.src;
+    imgEl.alt = btn.dataset.alt || "";
+    capEl.textContent = btn.dataset.caption || "";
+    lb.classList.add("is-open");
     document.body.classList.add("lightbox-open");
-    btnClose.focus();
+    lb.querySelector(".lightbox-close").focus();
   }
 
   function close() {
-    lightbox.hidden = true;
+    lb.classList.remove("is-open");
     document.body.classList.remove("lightbox-open");
-    img.removeAttribute("src");
+    imgEl.src = "";
   }
 
-  function next() { openAt(index + 1); }
-  function prev() { openAt(index - 1); }
+  function step(dir) {
+    index = (index + dir + items.length) % items.length;
+    open(index);
+  }
 
-  items.forEach(function (el, i) {
-    el.addEventListener("click", function () { openAt(i); });
+  items.forEach((btn, i) => {
+    btn.addEventListener("click", () => open(i));
   });
 
-  btnClose.addEventListener("click", close);
-  btnNext.addEventListener("click", function (e) { e.stopPropagation(); next(); });
-  btnPrev.addEventListener("click", function (e) { e.stopPropagation(); prev(); });
-
-  lightbox.addEventListener("click", function (e) {
-    if (e.target === lightbox) close();
+  lb.querySelector(".lightbox-close").addEventListener("click", close);
+  lb.querySelector(".lightbox-prev").addEventListener("click", () => step(-1));
+  lb.querySelector(".lightbox-next").addEventListener("click", () => step(1));
+  lb.addEventListener("click", (e) => {
+    if (e.target === lb) close();
   });
 
-  document.addEventListener("keydown", function (e) {
-    if (lightbox.hidden) return;
+  document.addEventListener("keydown", (e) => {
+    if (!lb.classList.contains("is-open")) return;
     if (e.key === "Escape") close();
-    else if (e.key === "ArrowRight") next();
-    else if (e.key === "ArrowLeft") prev();
+    if (e.key === "ArrowLeft") step(-1);
+    if (e.key === "ArrowRight") step(1);
   });
 })();

@@ -1,0 +1,675 @@
+{
+  "opening": "Işık düşer, şehir durur; bir kare tarih olur.",
+  "about": "refolyf, bir yerin adını değil bir bakışı taşır. Gün batımında Boğaz’ın silüeti, yokuştan denize açılan sokak, sisli ormanda suya düşen ağaç — hepsi aynı cümleye bağlanır: ışık geldiğinde zaman yavaşlar. Bu karelerde şehir manzara değildir; günlük bir sahne, bir nefes, bir bekleyiştir.",
+  "instagram": "https://www.instagram.com/refolyf/",
+  "hero": "033",
+  "total": 79,
+  "counts": {
+    "orman": 17,
+    "deniz-isik": 25,
+    "gece": 11,
+    "sokak-insan": 14,
+    "tas-yapi": 12
+  },
+  "series": {
+    "deniz-isik": {
+      "title": "Deniz & Işık",
+      "story": "Şehir burada suya yaslanır. Güneş alçalınca gemi, martı ve kıyı tek bir silüete dönüşür; Boğaz bir manzara değil, günlük bir sahne olur.",
+      "cover": "012"
+    },
+    "sokak-insan": {
+      "title": "Sokak & İnsan",
+      "story": "Kalabalık durunca hikâye başlar — kapalı çarşıda sohbet, yokuştan denize bakış, eski bir araba. Şehir, insanların temposunda yazılır.",
+      "cover": "046"
+    },
+    "gece": {
+      "title": "Gece",
+      "story": "Gece, şehri siyah-beyaza çevirir. Bekleyenler karanlıkta kalır; vitrinler ve neon tek renk gibi yanar.",
+      "cover": "064"
+    },
+    "orman": {
+      "title": "Orman",
+      "story": "Yaprağı düşmüş ağaçlar suya düşer. Sis, gökyüzü ile toprağı ayırır; doğa burada sessiz ama kalabalık bir korodur.",
+      "cover": "063"
+    },
+    "tas-yapi": {
+      "title": "Taş & Yapı",
+      "story": "Taş, zamanı tutar — kemerler, tuğla, kule külahı. Mimari, şehrin sabit yüzüdür.",
+      "cover": "019"
+    }
+  },
+  "photos": [
+    {
+      "id": "001",
+      "source": "001-01ecaa429202.jpg",
+      "web": "001-misty-trees-reflection.jpg",
+      "series": "orman",
+      "slug": "misty-trees-reflection",
+      "caption": "Sisli suda çıplak ağaçların karanlık yansıması."
+    },
+    {
+      "id": "002",
+      "source": "002-027f88125517.jpg",
+      "web": "002-pier-sailboat-haze.jpg",
+      "series": "deniz-isik",
+      "slug": "pier-sailboat-haze",
+      "caption": "Sisli kıyıda iskele ışığı ve uzakta bir yelken."
+    },
+    {
+      "id": "003",
+      "source": "003-029ea56a0c44.jpg",
+      "web": "003-harbor-crane-skyline.jpg",
+      "series": "deniz-isik",
+      "slug": "harbor-crane-skyline",
+      "caption": "Limanın demir yığınları; sisli ufukta modern silüet."
+    },
+    {
+      "id": "004",
+      "source": "004-02e6efad86cc.jpg",
+      "web": "004-boat-seagulls-mist-bw.jpg",
+      "series": "deniz-isik",
+      "slug": "boat-seagulls-mist-bw",
+      "caption": "Siste bir sandal, havada martıların sessiz uçuşu."
+    },
+    {
+      "id": "005",
+      "source": "005-06df14a8dd3f.jpg",
+      "web": "005-horses-green-field.jpg",
+      "series": "orman",
+      "slug": "horses-green-field",
+      "caption": "Geniş yeşil ovada otlayan at sürüsü."
+    },
+    {
+      "id": "006",
+      "source": "006-075d0af33b33.png",
+      "web": "006-seagulls-on-grass.jpg",
+      "series": "deniz-isik",
+      "slug": "seagulls-on-grass",
+      "caption": "Çimlerde duran iki martı; denizin bekçileri."
+    },
+    {
+      "id": "007",
+      "source": "007-07f498906fab.jpg",
+      "web": "007-rocky-cliffs-stars.jpg",
+      "series": "gece",
+      "slug": "rocky-cliffs-stars",
+      "caption": "Yıldızlı gecede aydınlanan kayalıklar."
+    },
+    {
+      "id": "008",
+      "source": "008-0f10ba0a5ade.jpg",
+      "web": "008-narrow-street-cars.jpg",
+      "series": "sokak-insan",
+      "slug": "narrow-street-cars",
+      "caption": "Akşam ışığında dar sokak ve park hâlinde arabalar."
+    },
+    {
+      "id": "009",
+      "source": "009-18e0304319a5.jpg",
+      "web": "009-night-rocks-stars.jpg",
+      "series": "gece",
+      "slug": "night-rocks-stars",
+      "caption": "Karanlık gökyüzünde kayaların yıldızlı silüeti."
+    },
+    {
+      "id": "010",
+      "source": "010-1c9606b0b760.jpg",
+      "web": "010-dog-eyes-portrait.jpg",
+      "series": "sokak-insan",
+      "slug": "dog-eyes-portrait",
+      "caption": "Sadık bir bakış: köpeğin yakın portresi."
+    },
+    {
+      "id": "011",
+      "source": "011-1eba37e882c5.jpg",
+      "web": "011-pier-building-sepia.jpg",
+      "series": "deniz-isik",
+      "slug": "pier-building-sepia",
+      "caption": "Sisli iskelede vapur iskelesinin sıcak tonu."
+    },
+    {
+      "id": "012",
+      "source": "012-2468a683ab39.jpg",
+      "web": "012-marina-sunset.jpg",
+      "series": "deniz-isik",
+      "slug": "marina-sunset",
+      "caption": "Marina’da gün batımı; tekneler turuncu göğe yaslanır."
+    },
+    {
+      "id": "013",
+      "source": "013-28fb4ad75aec.jpg",
+      "web": "013-boat-mist-seagulls.jpg",
+      "series": "deniz-isik",
+      "slug": "boat-mist-seagulls",
+      "caption": "Siste kaybolan sandal ve uçuşan martılar."
+    },
+    {
+      "id": "014",
+      "source": "014-2b81c7aae4c9.jpg",
+      "web": "014-columns-archway.jpg",
+      "series": "tas-yapi",
+      "slug": "columns-archway",
+      "caption": "Kemerden görünen sütunlar; taşın vakur dili."
+    },
+    {
+      "id": "015",
+      "source": "015-2ba08b3c0acb.jpg",
+      "web": "015-seagull-profile-pier.jpg",
+      "series": "deniz-isik",
+      "slug": "seagull-profile-pier",
+      "caption": "İskelede duran martının profili."
+    },
+    {
+      "id": "016",
+      "source": "016-2f35af223f7b.jpg",
+      "web": "016-brick-stone-corner.jpg",
+      "series": "tas-yapi",
+      "slug": "brick-stone-corner",
+      "caption": "Tuğla ve taşın köşede buluştuğu cephe."
+    },
+    {
+      "id": "017",
+      "source": "017-3094488f181e.jpg",
+      "web": "017-dark-horses-grass.jpg",
+      "series": "orman",
+      "slug": "dark-horses-grass",
+      "caption": "Altın çimenlikte iki koyu at."
+    },
+    {
+      "id": "018",
+      "source": "018-3510dc7db617.jpg",
+      "web": "018-dog-sidewalk-bw.jpg",
+      "series": "sokak-insan",
+      "slug": "dog-sidewalk-bw",
+      "caption": "Kaldırımda uzanan köpeğin sakin hâli."
+    },
+    {
+      "id": "019",
+      "source": "019-3a71d956ea9f.jpg",
+      "web": "019-galata-tower-top.jpg",
+      "series": "tas-yapi",
+      "slug": "galata-tower-top",
+      "caption": "Galata Kulesi’nin külahı gökyüzüne uzanır."
+    },
+    {
+      "id": "020",
+      "source": "020-3cbc53ef748f.jpg",
+      "web": "020-historic-stone-building.jpg",
+      "series": "tas-yapi",
+      "slug": "historic-stone-building",
+      "caption": "Kemerlere yaslanmış tarihî taş yapı."
+    },
+    {
+      "id": "021",
+      "source": "021-43a689a1ce07.jpg",
+      "web": "021-lighthouse-galata.jpg",
+      "series": "deniz-isik",
+      "slug": "lighthouse-galata",
+      "caption": "Deniz feneri ve uzakta Galata’nın silüeti."
+    },
+    {
+      "id": "022",
+      "source": "022-459d3d82ebdf.jpg",
+      "web": "022-rooster-portrait-bw.jpg",
+      "series": "sokak-insan",
+      "slug": "rooster-portrait-bw",
+      "caption": "Bir horozun vakur, yakından çekilmiş portresi."
+    },
+    {
+      "id": "023",
+      "source": "023-46ad84d27b71.jpg",
+      "web": "023-ship-lighthouse-sunset.jpg",
+      "series": "deniz-isik",
+      "slug": "ship-lighthouse-sunset",
+      "caption": "Gün batımında gemi ve fenerin altın silüeti."
+    },
+    {
+      "id": "024",
+      "source": "024-46edfa295f60.jpg",
+      "web": "024-bus-stop-silhouettes.jpg",
+      "series": "gece",
+      "slug": "bus-stop-silhouettes",
+      "caption": "Gece durağında camın ardındaki silüetler."
+    },
+    {
+      "id": "025",
+      "source": "025-4b636bd2f8c0.jpg",
+      "web": "025-long-pier-overcast.jpg",
+      "series": "deniz-isik",
+      "slug": "long-pier-overcast",
+      "caption": "Bulutlu gökyüzünde denize uzanan uzun iskele."
+    },
+    {
+      "id": "026",
+      "source": "026-4b87c9c11b01.jpg",
+      "web": "026-pinecones-wood.jpg",
+      "series": "orman",
+      "slug": "pinecones-wood",
+      "caption": "Ahşap üzerinde iki kozalak; ormanın minik anıtları."
+    },
+    {
+      "id": "027",
+      "source": "027-4bc25e334627.jpg",
+      "web": "027-horses-grazing-field.jpg",
+      "series": "orman",
+      "slug": "horses-grazing-field",
+      "caption": "Açık ovada otlayan atlar."
+    },
+    {
+      "id": "028",
+      "source": "028-4d3eb6a98d19.jpg",
+      "web": "028-night-water-mountain-lights.jpg",
+      "series": "gece",
+      "slug": "night-water-mountain-lights",
+      "caption": "Dağ eteklerinde yansıyan gece ışıkları."
+    },
+    {
+      "id": "029",
+      "source": "029-4d63d11ceab2.jpg",
+      "web": "029-ferry-misty-city.jpg",
+      "series": "deniz-isik",
+      "slug": "ferry-misty-city",
+      "caption": "Sisli şehre doğru ilerleyen vapur."
+    },
+    {
+      "id": "030",
+      "source": "030-4fa4da92dfe7.jpg",
+      "web": "030-street-to-sea.jpg",
+      "series": "sokak-insan",
+      "slug": "street-to-sea",
+      "caption": "Yokuştan denize açılan dar sokak."
+    },
+    {
+      "id": "031",
+      "source": "031-4fb710101034.jpg",
+      "web": "031-bird-orange-sky.jpg",
+      "series": "deniz-isik",
+      "slug": "bird-orange-sky",
+      "caption": "Turuncu gökte tek bir kuşun silüeti."
+    },
+    {
+      "id": "032",
+      "source": "032-50f14d03f445.jpg",
+      "web": "032-night-street-light-trails.jpg",
+      "series": "gece",
+      "slug": "night-street-light-trails",
+      "caption": "Uzun pozlamada cadde ışıklarının izleri."
+    },
+    {
+      "id": "033",
+      "source": "033-534283d845ea.jpg",
+      "web": "033-seagulls-sunset-swarm.jpg",
+      "series": "deniz-isik",
+      "slug": "seagulls-sunset-swarm",
+      "caption": "Gün batımında sürü hâlinde uçan martılar."
+    },
+    {
+      "id": "034",
+      "source": "034-5d1e3733f1c2.jpg",
+      "web": "034-river-green-hills.jpg",
+      "series": "orman",
+      "slug": "river-green-hills",
+      "caption": "Yeşil tepeler arasında kıvrılan mavi su."
+    },
+    {
+      "id": "035",
+      "source": "035-5e33cb4aaecd.jpg",
+      "web": "035-sun-through-branches.jpg",
+      "series": "orman",
+      "slug": "sun-through-branches",
+      "caption": "Dallar arasından batan güneşin son ışığı."
+    },
+    {
+      "id": "036",
+      "source": "036-6165673ef9d1.jpg",
+      "web": "036-bare-trees-green-field.jpg",
+      "series": "orman",
+      "slug": "bare-trees-green-field",
+      "caption": "Yeşil tarlanın kenarında çıplak ağaçlar."
+    },
+    {
+      "id": "037",
+      "source": "037-648ef30cf3f1.jpg",
+      "web": "037-fishermen-pier-dusk.jpg",
+      "series": "deniz-isik",
+      "slug": "fishermen-pier-dusk",
+      "caption": "Alacakaranlıkta iskelede üç balıkçı silüeti."
+    },
+    {
+      "id": "038",
+      "source": "038-6632ac8a9e65.jpg",
+      "web": "038-hotel-street-vertical.jpg",
+      "series": "sokak-insan",
+      "slug": "hotel-street-vertical",
+      "caption": "Dar sokakta otel tabelası ve yüksek cepheler."
+    },
+    {
+      "id": "039",
+      "source": "039-67ff2db25b92.jpg",
+      "web": "039-seagulls-ferry-sunset.jpg",
+      "series": "deniz-isik",
+      "slug": "seagulls-ferry-sunset",
+      "caption": "Gün batımında martılar ve ufuktaki vapur."
+    },
+    {
+      "id": "040",
+      "source": "040-6d91964a50c0.jpg",
+      "web": "040-brick-glass-detail.jpg",
+      "series": "tas-yapi",
+      "slug": "brick-glass-detail",
+      "caption": "Tuğla duvar ve camın soyut detayı."
+    },
+    {
+      "id": "041",
+      "source": "041-76e6022c1cf8.jpg",
+      "web": "041-seagull-minarets-sunset.jpg",
+      "series": "deniz-isik",
+      "slug": "seagull-minarets-sunset",
+      "caption": "Minare silüetleri üzerinde uçan martı."
+    },
+    {
+      "id": "042",
+      "source": "042-7732a08c29e6.jpg",
+      "web": "042-sun-minaret-silhouette.jpg",
+      "series": "deniz-isik",
+      "slug": "sun-minaret-silhouette",
+      "caption": "Minare yanında batan büyük turuncu güneş."
+    },
+    {
+      "id": "043",
+      "source": "043-7d197ed3fbc2.jpg",
+      "web": "043-dark-bare-forest.jpg",
+      "series": "orman",
+      "slug": "dark-bare-forest",
+      "caption": "Alacakaranlıkta çıplak ormanın karanlık korosu."
+    },
+    {
+      "id": "044",
+      "source": "044-7dbb010beccd.jpg",
+      "web": "044-yellow-taxi-street.jpg",
+      "series": "sokak-insan",
+      "slug": "yellow-taxi-street",
+      "caption": "Ağacın gölgesinde sarı taksi ve şehir yolu."
+    },
+    {
+      "id": "045",
+      "source": "045-81c4f5d9123b.jpg",
+      "web": "045-hillside-rooftops.jpg",
+      "series": "tas-yapi",
+      "slug": "hillside-rooftops",
+      "caption": "Tepeden bakınca çatıların sonsuz dokusu."
+    },
+    {
+      "id": "046",
+      "source": "046-8440937033e0.jpg",
+      "web": "046-bazaar-tea.jpg",
+      "series": "sokak-insan",
+      "slug": "bazaar-tea",
+      "caption": "Kapalı çarşıda çay ve sohbet; taş kemerlerin altında."
+    },
+    {
+      "id": "047",
+      "source": "047-8933590011fe.jpg",
+      "web": "047-god-rays-pines.jpg",
+      "series": "orman",
+      "slug": "god-rays-pines",
+      "caption": "Çam dallarından süzülen altın ışık huzmeleri."
+    },
+    {
+      "id": "048",
+      "source": "048-8b89f2cb7d00.jpg",
+      "web": "048-horses-open-field.jpg",
+      "series": "orman",
+      "slug": "horses-open-field",
+      "caption": "Açık arazide otlayan at grubu."
+    },
+    {
+      "id": "049",
+      "source": "049-8c7d78353f05.jpg",
+      "web": "049-bridge-ferry-haze.jpg",
+      "series": "deniz-isik",
+      "slug": "bridge-ferry-haze",
+      "caption": "Sisli Boğaz’da köprü altından geçen vapur."
+    },
+    {
+      "id": "050",
+      "source": "050-9065fa9d348d.jpg",
+      "web": "050-dew-wire-tree.jpg",
+      "series": "orman",
+      "slug": "dew-wire-tree",
+      "caption": "Ağaca sarılı telle asılı çiy damlaları."
+    },
+    {
+      "id": "051",
+      "source": "051-90991c7428d8.jpg",
+      "web": "051-campfire-river-dusk.jpg",
+      "series": "orman",
+      "slug": "campfire-river-dusk",
+      "caption": "Nehir kenarında alacakaranlık ateşi ve kırmızı traktör."
+    },
+    {
+      "id": "052",
+      "source": "052-99968cd5ebee.jpg",
+      "web": "052-ferry-horizon-sunset.jpg",
+      "series": "deniz-isik",
+      "slug": "ferry-horizon-sunset",
+      "caption": "Ufukta tek vapur; bulutlu gün batımı."
+    },
+    {
+      "id": "053",
+      "source": "053-9e9a633d4bae.jpg",
+      "web": "053-shadowed-street-awnings.jpg",
+      "series": "sokak-insan",
+      "slug": "shadowed-street-awnings",
+      "caption": "Derin gölgeli sokak ve yeşil tente."
+    },
+    {
+      "id": "054",
+      "source": "054-a180038b8ea5.jpg",
+      "web": "054-alley-to-sea.jpg",
+      "series": "sokak-insan",
+      "slug": "alley-to-sea",
+      "caption": "Denize açılan ara sokakta yürüyen silüetler."
+    },
+    {
+      "id": "055",
+      "source": "055-a36863e39f6e.jpg",
+      "web": "055-pigeons-stone-ledge.jpg",
+      "series": "sokak-insan",
+      "slug": "pigeons-stone-ledge",
+      "caption": "Taş kenarda üç güvercin; biri kanat çırpar."
+    },
+    {
+      "id": "056",
+      "source": "056-aadbb227c0eb.jpg",
+      "web": "056-clock-tower-street.jpg",
+      "series": "tas-yapi",
+      "slug": "clock-tower-street",
+      "caption": "Sokağın sonunda yükselen saat kulesi."
+    },
+    {
+      "id": "057",
+      "source": "057-ac6b10959dc5.jpg",
+      "web": "057-three-horses-grass.jpg",
+      "series": "orman",
+      "slug": "three-horses-grass",
+      "caption": "Uzun otlarda duran üç at."
+    },
+    {
+      "id": "058",
+      "source": "058-ad59f731e05f.jpg",
+      "web": "058-tree-twilight-stars.jpg",
+      "series": "orman",
+      "slug": "tree-twilight-stars",
+      "caption": "Alacakaranlık gökyüzünde yapraklı ağaç silüeti."
+    },
+    {
+      "id": "059",
+      "source": "059-b25dd0102556.jpg",
+      "web": "059-neon-change-street-food.jpg",
+      "series": "gece",
+      "slug": "neon-change-street-food",
+      "caption": "Gece tezgâhı ve mor neon CHANGE tabelası."
+    },
+    {
+      "id": "060",
+      "source": "060-b6cddcaac08c.jpg",
+      "web": "060-light-rays-forest.jpg",
+      "series": "orman",
+      "slug": "light-rays-forest",
+      "caption": "Ormanın içinden geçen altın ışık demetleri."
+    },
+    {
+      "id": "061",
+      "source": "061-b7822364f9fd.jpg",
+      "web": "061-mado-bench-silhouette.jpg",
+      "series": "gece",
+      "slug": "mado-bench-silhouette",
+      "caption": "MADO vitrininin önünde bekleyen yalnız silüet."
+    },
+    {
+      "id": "062",
+      "source": "062-b9e87e328982.jpg",
+      "web": "062-brick-vent-bw.jpg",
+      "series": "tas-yapi",
+      "slug": "brick-vent-bw",
+      "caption": "Tuğla zeminde endüstriyel havalandırma detayı."
+    },
+    {
+      "id": "063",
+      "source": "063-ba9ed1aa1301.jpg",
+      "web": "063-misty-forest-water.jpg",
+      "series": "orman",
+      "slug": "misty-forest-water",
+      "caption": "Sisli ormanın durgun sudaki gizemli yansıması."
+    },
+    {
+      "id": "064",
+      "source": "064-bb74587be5b3.jpg",
+      "web": "064-bus-stop-eczane-mado.jpg",
+      "series": "gece",
+      "slug": "bus-stop-eczane-mado",
+      "caption": "Eczane ve MADO ışığında durak silüetleri."
+    },
+    {
+      "id": "065",
+      "source": "065-c688dc08bd73.jpg",
+      "web": "065-blue-water-mountains.jpg",
+      "series": "deniz-isik",
+      "slug": "blue-water-mountains",
+      "caption": "Dağların gölgesinde masmavi su."
+    },
+    {
+      "id": "066",
+      "source": "066-ce59aca7d0b6.jpg",
+      "web": "066-bosphorus-bridge-red.jpg",
+      "series": "gece",
+      "slug": "bosphorus-bridge-red",
+      "caption": "Boğaz Köprüsü’nün kırmızı gece ışıkları."
+    },
+    {
+      "id": "067",
+      "source": "067-ce73f58c4858.jpg",
+      "web": "067-rooster-detail-bw.jpg",
+      "series": "sokak-insan",
+      "slug": "rooster-detail-bw",
+      "caption": "Horozun tüylerindeki detaylı siyah-beyaz portre."
+    },
+    {
+      "id": "068",
+      "source": "068-d25089d64d76.jpg",
+      "web": "068-promenade-pier-people.jpg",
+      "series": "deniz-isik",
+      "slug": "promenade-pier-people",
+      "caption": "Sahil iskelesinde denize karşı yürüyenler."
+    },
+    {
+      "id": "069",
+      "source": "069-d25e2141c744.jpg",
+      "web": "069-ship-sunset-branches.jpg",
+      "series": "deniz-isik",
+      "slug": "ship-sunset-branches",
+      "caption": "Dallar arasından gün batımında gemi silüeti."
+    },
+    {
+      "id": "070",
+      "source": "070-d46d0bfa7e09.jpg",
+      "web": "070-galata-night-brick.jpg",
+      "series": "tas-yapi",
+      "slug": "galata-night-brick",
+      "caption": "Gece Galata’nın tuğlaları ve ışıklı pencere."
+    },
+    {
+      "id": "071",
+      "source": "071-d58bdbc6b74e.jpg",
+      "web": "071-cocker-spaniel-portrait.jpg",
+      "series": "sokak-insan",
+      "slug": "cocker-spaniel-portrait",
+      "caption": "Cocker spaniel’in sıcak, doğrudan bakışı."
+    },
+    {
+      "id": "072",
+      "source": "072-d7799617c043.jpg",
+      "web": "072-night-motion-blur-street.jpg",
+      "series": "gece",
+      "slug": "night-motion-blur-street",
+      "caption": "Uzun pozlamada gece sokağının hareketli silüetleri."
+    },
+    {
+      "id": "073",
+      "source": "073-dcaae854efc5.jpg",
+      "web": "073-apartment-facade-up.jpg",
+      "series": "tas-yapi",
+      "slug": "apartment-facade-up",
+      "caption": "Göğe uzanan apartman balkonlarının ritmi."
+    },
+    {
+      "id": "074",
+      "source": "074-e65c3d934384.jpg",
+      "web": "074-concrete-ruin-trees.jpg",
+      "series": "tas-yapi",
+      "slug": "concrete-ruin-trees",
+      "caption": "Ağaçlar arasında terk edilmiş beton iskelet."
+    },
+    {
+      "id": "075",
+      "source": "075-ea972eb97cbc.jpg",
+      "web": "075-lighthouse-open-water.jpg",
+      "series": "deniz-isik",
+      "slug": "lighthouse-open-water",
+      "caption": "Açık denizde kırmızı-beyaz fener ve uzak silüet."
+    },
+    {
+      "id": "076",
+      "source": "076-eeb6cbef19fc.jpg",
+      "web": "076-coast-lighthouses-dusk.jpg",
+      "series": "deniz-isik",
+      "slug": "coast-lighthouses-dusk",
+      "caption": "Alacakaranlıkta iki fener arasında turuncu ufuk."
+    },
+    {
+      "id": "077",
+      "source": "077-ef179c7bb9e2.jpg",
+      "web": "077-skyline-maidens-tower.jpg",
+      "series": "tas-yapi",
+      "slug": "skyline-maidens-tower",
+      "caption": "Kız Kulesi’nden gökdelenlere uzanan kıyı silüeti."
+    },
+    {
+      "id": "078",
+      "source": "078-f2a91c6d2603.jpg",
+      "web": "078-bosphorus-bridge-blue-red.jpg",
+      "series": "gece",
+      "slug": "bosphorus-bridge-blue-red",
+      "caption": "Gece Boğaz’ı saran köprünün mavi-kırmızı ışığı."
+    },
+    {
+      "id": "079",
+      "source": "079-f4042bbd4ad9.jpg",
+      "web": "079-chicken-portrait-bw.jpg",
+      "series": "sokak-insan",
+      "slug": "chicken-portrait-bw",
+      "caption": "Bir tavuğun şaşkın, yakın siyah-beyaz yüzü."
+    }
+  ]
+}
